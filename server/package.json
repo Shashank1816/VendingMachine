@@ -1,0 +1,21 @@
+{
+  "name": "finalvending",
+  "version": "1.0.0",
+  "description": "vending machine for cold drinks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon index"
+  },
+  "author": "shashank verma",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "mongoose": "^5.12.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
