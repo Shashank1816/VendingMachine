@@ -3,16 +3,20 @@ const Schema = mongoose.Schema;
 
 const CoinSchema = new Schema({
     one:{
-        type:Number
+        type:Number,
+        default:0
     },
     five:{
-        type:Number
+        type:Number,
+        default:0
     },
     ten:{
-        type:Number
+        type:Number,
+        default:0
     },
     twentyfive:{
-        type:Number
+        type:Number,
+        default:0
     },
     coke:{
         type:Number,
