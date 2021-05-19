@@ -12,8 +12,9 @@ module.exports=router.post('/',async(req,res)=>{
             five:req.body.five,
             ten:req.body.ten,
             twentyfive:req.body.twentyfive
-        });//array ko schema me daala
+        });//req.body.one jo user ne enter kia hai 
         const result = await newPurchase.save();
+        
         res.json(result);
 
     }

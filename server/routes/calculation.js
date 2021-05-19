@@ -26,8 +26,8 @@ module.exports=router.put("/",async(req,res)=>{
             current.completed=true;
             await current.save();
             var mess="Your order is delivered Successfully! Please don't forget to collect the remaining cash of Rs. "+returnamount;
-            
-            return res.send(mess);
+            //coin problem
+            return res.json(mess);
         }
         else
         {
